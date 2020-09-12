@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 .bg-pink{
-    background-color: #f62459;
+    background-color: #EC007B;
 }
 
 .navbar-brand{
@@ -22,7 +22,7 @@
     background-size: cover;
     width: 100%;
     height: 70vh;
-    color: #f62459;
+    color: #EC007B;
 }
 
 .hero-figure .content {
@@ -33,7 +33,7 @@
 }
 
 .btn-pink{
-    background-color: #f62459;
+    background-color: #EC007B;
     color: #ffffff;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@
 
 .stat-content img{
     border-radius: 0.75rem;
-    border: 2px solid #f62459;
+    border: 2px solid #EC007B;
 }
 
 .incidence-rates, .age-risk, .cancer-frequency{
@@ -63,7 +63,7 @@
 /* footer css starts here  */
 .site-footer
 {
-  background-color:#f62459;
+  background-color:#EC007B;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -175,7 +175,7 @@
 }
 .social-icons a{
   background-color:#eceeef;
-  color:#f62459;
+  color:#EC007B;
   font-size:16px;
   display:inline-block;
   line-height:44px;
