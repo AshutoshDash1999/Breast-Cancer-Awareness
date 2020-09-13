@@ -26,10 +26,13 @@
 }
 
 .hero-figure .content {
-    text-align: right;
+    text-align: center;
     align-items: center;
-    padding: 15vh 0;
+    padding: 5vh 0;
     font-family: 'Merriweather', serif;
+    margin-top: 15vh;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 25vh;
 }
 
 .btn-pink{
@@ -51,6 +54,7 @@
 .stat-content img{
     border-radius: 0.75rem;
     border: 2px solid #EC007B;
+    
 }
 
 .incidence-rates, .age-risk, .cancer-frequency{
@@ -59,6 +63,19 @@
 }
 
 /* stat content ends here  */
+
+/* mobile compatibiltiy starts here */
+@media screen and (max-width:600px) {
+    .age-risk{
+      flex-direction: column-reverse;
+    }
+
+    .cancer-mortality{
+      flex-direction: column-reverse;
+    }
+}
+
+/* mobile compatibiltiy ends here */
 
 /* footer css starts here  */
 .site-footer
