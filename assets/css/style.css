@@ -60,7 +60,7 @@
 /* stat content ends here  */
 
 /* mobile compatibiltiy starts here */
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
     .age-risk{
       flex-direction: column-reverse;
     }
