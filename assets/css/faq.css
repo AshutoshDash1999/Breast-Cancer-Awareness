@@ -13,6 +13,13 @@
     padding-right: 10px;
 }
 
+.ask-faq{
+  display: inline-block;
+}
+
+.ask-faq input{
+  width: 20%;
+}
 
 /* footer css starts here  */
 .site-footer
