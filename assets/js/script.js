@@ -1,4 +1,5 @@
-ScrollReveal().reveal(".incidence-rates", {delay:300});
-ScrollReveal().reveal(".age-risk", {delay:300});
-ScrollReveal().reveal(".cancer-frequency", {delay:300});
-ScrollReveal().reveal(".cancer-mortality", {delay:300});
+
+ScrollReveal().reveal(".incidence-rates", {delay:400});
+ScrollReveal().reveal(".age-risk", {delay:400});
+ScrollReveal().reveal(".cancer-frequency", {delay:400});
+ScrollReveal().reveal(".cancer-mortality", {delay:400});
