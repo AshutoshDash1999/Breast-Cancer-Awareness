@@ -1,5 +1,5 @@
 .bg-pink{
-    background-color: #EC007B;
+    background-color: #F7567C;
 }
 
 .navbar-brand{
@@ -14,7 +14,7 @@
 }
 
 .thead-pink{
-    background-color: #EC007B;
+    background-color: #F7567C;
     color: #fff;
 }
 
@@ -64,7 +64,7 @@ tbody{
 /* footer css starts here  */
 .site-footer
 {
-  background-color:#EC007B;
+  background-color:#F7567C;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -176,7 +176,7 @@ tbody{
 }
 .social-icons a{
   background-color:#eceeef;
-  color:#EC007B;
+  color:#F7567C;
   font-size:16px;
   display:inline-block;
   line-height:44px;
