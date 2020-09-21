@@ -11,6 +11,7 @@
 <link rel="icon" href="assets/media/pink-ribbon-logo-png-transparent-719x899.ico" type="image/ico">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <title>Breast Cancer Awareness | Your one stop for everything related to BReast Cancer</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
@@ -81,7 +82,9 @@
         <br>
         <div class="row align-items-center age-risk">
           <div class="col-md-6 text-center">
-            <img src="assets/media/Figure-2-1-Age-Specific-Rates-of-Breast-Cancer---female-vs-male-12-04-12.jpg" alt="roll over map for country incident rates" height="500vh" width="100%">
+            <div class="age-graph">
+              <canvas id="myChart" style="height: 300vh;"></canvas>
+            </div>
           </div>
           <div class="col-md-6 align-items-center">
             <h1>Age increase the risk of breast cancer</h1>
@@ -156,7 +159,7 @@
       </div>
     </footer>
   <!-- footer ends here -->
-
+  
   <script src="assets/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
