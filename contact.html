@@ -34,8 +34,23 @@
   <link rel="icon" href="assets/media/pink-ribbon-logo-png-transparent-719x899.ico" type="image/ico">
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+
+<style>
+  /* splash screen css starts here  */
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 202, 251) url("/assets/media/preloader.gif") no-repeat center center;
+    z-index: 99999;
+  }
+  /* splash screen css ends here  */
+</style>
+
 </head>
-<body>
+<body onload="loader()">
+  <div id="loading"></div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Breast Cancer Awareness</a>
@@ -108,7 +123,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-6">
               <h6>About</h6>
-              <p class="text-justify">This site is made for <a target="_blanket" href="istebits.com">ISTEBITS</a>'s <a href="https://spider-istebits.web.app">Spider Event</a>. This website also serves the purpose of spreading awareness related to Breast Cancer.</p>
+              <p class="text-justify">This site is made for <a target="_blanket" href="istebits.com">ISTEBITS</a>'s <a href="https://spider-istebits.web.app">Spider Event</a>. This website also serves the purpose of spreading awareness related to Breast Cancer.<br>
+                This site is open source and the source code can be found <a href="https://github.com/AshutoshDash1999/Breast-Cancer-Awareness">here.</a></p>
               
             </div>
   
@@ -148,7 +164,12 @@
         </div>
       </footer>
     <!-- footer ends here -->
-    
+    <script>
+    var preloader = document.getElementById("loading");
+    function loader(){
+      preloader.style.display = 'none';
+    }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
