@@ -1,8 +1,8 @@
 
-ScrollReveal().reveal(".incidence-rates", {delay:350, reset: true});
-ScrollReveal().reveal(".age-risk", {delay:350, reset: true});
-ScrollReveal().reveal(".cancer-frequency", {delay:350, reset: true});
-ScrollReveal().reveal(".cancer-mortality", {delay:350, reset: true});
+ScrollReveal().reveal(".incidence-rates", {delay:350});
+ScrollReveal().reveal(".age-risk", {delay:350});
+ScrollReveal().reveal(".cancer-frequency", {delay:350});
+ScrollReveal().reveal(".cancer-mortality", {delay:350});
 
 // chart js 
 var ctx = document.getElementById('myChart').getContext('2d');

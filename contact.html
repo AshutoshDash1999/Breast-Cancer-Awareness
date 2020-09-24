@@ -74,16 +74,19 @@
       <div class="row">
         <div class="col-sm-4"></div>
         <div class="col-sm-4">
-          <form action="" name="contact" data-netlify="true" netlify>
-            <input type="text" class="form-control" placeholder="First Name">
+          <form action="" name="contact" data-netlify="true">
+            <input type="text" class="form-control" name="firstName" placeholder="First Name">
             <br>
-            <input type="text" class="form-control" placeholder="Last Name">
+            <input type="text" class="form-control" name="lastName" placeholder="Last Name">
             <br>
-            <input type="tel" class="form-control" placeholder="Phone Number" min=10 max=12 name="" id="">
+            <input type="tel" class="form-control" name="phonenumber" placeholder="Phone Number" min=10 max=12 name="" id="">
             <br>
-            <input type="email" name="" id="" class="form-control" placeholder="Email">
+            <input type="email" name="emailID" id="" class="form-control" placeholder="Email">
             <br>
-            <textarea name="" id="" cols="45" rows="5" class="form-control" placeholder="Write your problem here"></textarea>
+            <label for="" class="float-left"> Choose a file to upload(optional):</label>
+            <input type="file" id="myFile" name="filename" class="float-left" style="margin-bottom: 5vh;">
+            <br>
+            <textarea name="textarea" id="" cols="45" rows="5" class="form-control" placeholder="Write your problem here..."></textarea>
             <br>
             <button type="submit" class="btn btn-success btn-lg float-right"">Submit</button>
           </form>
