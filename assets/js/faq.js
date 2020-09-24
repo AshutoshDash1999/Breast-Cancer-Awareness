@@ -1,4 +1,5 @@
 
+// scroll revela js starts here 
 ScrollReveal().reveal("#headingOne", {delay:300});
 ScrollReveal().reveal("#headingTwo", {delay:350});
 ScrollReveal().reveal("#headingThree", {delay:400});
@@ -13,3 +14,4 @@ ScrollReveal().reveal("#headingEleven", {delay:300});
 ScrollReveal().reveal("#headingTwelve", {delay:300});
 ScrollReveal().reveal("#headingThirteen", {delay:300});
 ScrollReveal().reveal("#headingFourteen", {delay:300});
+// scroll revela js ends here

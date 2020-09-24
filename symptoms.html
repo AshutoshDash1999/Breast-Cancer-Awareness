@@ -29,9 +29,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
   <link rel="icon" href="assets/media/pink-ribbon-logo-png-transparent-719x899.ico" type="image/ico">
-
+  
 </head>
-<body>
+<body onload="loader()">
+
+  <div id="loading"></div>
+  
     <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Breast Cancer Awareness</a>
@@ -86,7 +89,9 @@
           <div class="row">
             <div class="col-sm-12 col-md-6">
               <h6>About</h6>
-              <p class="text-justify">This site is made for <a href="istebits.com">ISTEBITS</a>'s <a href="https://spider-istebits.web.app">Spider Event</a>. This website also serves the purpose of spreading awareness related to Breast Cancer.</p>
+              <p class="text-justify">This site is made for <a href="istebits.com">ISTEBITS</a>'s <a href="https://spider-istebits.web.app">Spider Event</a>. This website also serves the purpose of spreading awareness related to Breast Cancer. <br>
+                This site is open source and the source code can be found <a href="https://github.com/AshutoshDash1999/Breast-Cancer-Awareness">here.</a>
+              </p>
               
             </div>
   
@@ -128,11 +133,15 @@
     <!-- footer ends here -->
 
 
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+  </script>
+  <script src="assets/js/preloader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

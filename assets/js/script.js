@@ -1,10 +1,11 @@
-
+// scroll revela js starts here 
 ScrollReveal().reveal(".incidence-rates", {delay:350});
 ScrollReveal().reveal(".age-risk", {delay:350});
 ScrollReveal().reveal(".cancer-frequency", {delay:350});
 ScrollReveal().reveal(".cancer-mortality", {delay:350});
+// scroll revela js ends here 
 
-// chart js 
+// chart js starts here
 var ctx = document.getElementById('myChart').getContext('2d');
     var chart = new Chart(ctx, {
         // The type of chart we want to create
@@ -49,3 +50,4 @@ var ctx = document.getElementById('myChart').getContext('2d');
             },  
         }
     });
+// chart js ends here 
