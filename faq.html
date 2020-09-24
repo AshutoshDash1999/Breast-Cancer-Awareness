@@ -269,8 +269,13 @@
       </div>
       <br>
       <div class="ask-faq">
-        <form action="" name="faq" data-netlify="true">
+        <form action="" name="faq" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+          <p class="hidden" style="visibility: hidden; z-index: -100; position: absolute">
+            <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
+          </p>
           <textarea name="faq" id="" cols="15" rows="3" class="form-control" placeholder="Ask your question here"></textarea>
+          <br>
+          <div data-netlify-recaptcha="true"></div>
           <br>
           <button type="submit" class="btn btn-primary float-right">Ask</button>
           <br>
