@@ -24,6 +24,10 @@
     padding-right: 10px;
 }
 
+table{
+  width: 100%;
+}
+
 .thead-pink{
     background-color: #F7567C;
     color: #fff;
@@ -36,7 +40,6 @@ tbody{
 .treatment{
     font-family: 'Raleway', sans-serif;
 }
-
 
 /* card css starts here  */
 .card{
@@ -52,7 +55,7 @@ tbody{
 
 @media only screen and (max-width: 768px) {
   .card{
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
   }
 }
 
@@ -85,10 +88,7 @@ tbody{
 .card:hover .info{
   opacity: 1;
 }
-
-
 /* card css ends here  */
-
 
 /* footer css starts here  */
 .site-footer
