@@ -85,7 +85,6 @@
 }
 
 .incidence-rates, .age-risk, .cancer-frequency{
-    visibility: hidden;
     transition: 0.6s ease-in;
 }
 
