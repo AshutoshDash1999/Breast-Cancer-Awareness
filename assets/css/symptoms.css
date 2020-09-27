@@ -32,6 +32,73 @@
   margin: 10px;
 }
 
+/* marquee css starts here */
+.marquee{
+  /* width: 80vw; */
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+}
+
+.marquee:before{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 5rem;
+  content: "";
+  z-index: 1;
+  left: 0;
+  background: linear-gradient(to right, rgba(248, 212, 237, 0.787) 0%, transparent 100%);
+}
+
+.marquee:after{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 5rem;
+  content: "";
+  z-index: 1;  
+  right: 0;
+  background: linear-gradient(to left, rgba(243, 191, 227, 0.753) 0%, transparent 100%);
+}
+
+.marquee-content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0;
+  text-align: center;
+  transform: translateX(100%);
+  animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling{
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-100%);}
+}
+
+.marquee-content li{
+  margin-left: 10px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  list-style: none;
+}
+
+.marquee-content li img{
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 767px){
+  .marquee {
+    width: 100%;
+  }
+}
+/* marquee css ends here */
+
 /* footer css starts here  */
 .site-footer
 {
